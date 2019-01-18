@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="css/bootstrap4.css">
+<link rel="stylesheet" href="css/custom.css">
+<link href="animate.css-master/animate.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/aos.css">
+<title>EVENT-MANAGEMENT</title>
+</head>
+<body id="myPage">
+<div class="container-fluid">
+ <div class="header container">
+<div class="row">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-brand doubleUnderline" href="index.html"><h6>E-MANAGEMENT</h6></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="event.html">EVENTS</a>
+          </li>
+		  <li class="nav-item">
+             <a class="nav-link" href="#">SERVICES</a>
+          </li>
+		   <li class="nav-item">
+             <a class="nav-link" href="#">GALLERY</a>
+          </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-user-o" style="border:2px solid #b2162b;border-radius:50%;padding:4px;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-search" style="border:2px solid #b2162b;border-radius:50%;padding:4px;"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
+</div>
+</div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/ec1.jpg" alt="img1" class="w-100 d-none d-md-block" >
+      <img src="img/mobslide.jpg" alt="img1" class="w-100 d-block d-sm-none">
+       <div class="carousel-caption d-none d-md-block">
+        <i class="fa fa-calendar fa-5x pb-2" data-aos="flip-left"></i>
+		<h1 class="animated bounce">EVENT PLANNER</h1>
+		<small class="animated bounce">EVERY EVENT SHOULD BE PERFECT</small>
+		<p class="getstart mt-3 animated slideInUp"><a href="#content">Get Started</a></p>
+       </div>
+    </div>
+    <div class="carousel-item">
+	 <img src="img/ec7.jpg" alt="img2" class="w-100 d-none d-md-block" >
+      <img src="img/mobslide2.jpg" alt="img2" class="w-100 d-block d-sm-none">
+      <div class="carousel-caption d-none d-md-block">
+         <i class="fa fa-calendar fa-5x pb-2" data-aos="flip-left"></i>
+	   <h1 class="animated bounce">EVENT PLANNER</h1>
+		<small class="animated bounce">EVERY EVENT SHOULD BE PERFECT</small>
+		<div class="btnlogin pt-3 animated slideInUp"><button type="submit" class="btn btn-sm" id="show_hide1"><a href="#content">Get Started</a></button></div>
+       </div>
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container-fluid pl-5 pt-4 d-none d-lg-block" id="block-menu">
+	    <div class="row">
+			 <div class="col-md-3">
+				<h1 class="section-title two-lines">
+					<span class="icon-inner"><span class="fa-stack"><i class="fa fa-handshake-o fa-2x"></i></span></span>&nbsp;&nbsp;
+					<span class="title-inner"> What You Want<br /><small>Find Best Event For You</small></span>
+				</h1>
+			</div>
+			<div class="col-md-9">
+				<form id="registration-form" name="registration-form" class="event-form" action="#" method="post">
+					<div class="row">
+						<div class="col-sm-6 col-md-3">                                           
+							<div class="form-group selectpicker-wrapper with-icon">
+								<i class="fa fa-globe"></i>
+								<select class="selectpicker input-price" data-live-search="true" data-width="100%"
+										data-toggle="tooltip" title="Select Location">
+									<option>Select Location</option>
+									<option>Canada</option>
+									<option>Australia</option>
+									<option>Dubai</option>
+								</select>
+							</div>                                           
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="form-group selectpicker-wrapper with-icon">
+								<i class="fa fa-bars"></i>
+								<select class="selectpicker input-price" data-live-search="true" data-width="100%"
+										data-toggle="tooltip" title="Select Type">
+									<option>Select Type</option>
+									<option>Canada</option>
+									<option>Australia</option>
+									<option>Dubai</option>
+								</select>								
+							</div>     
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="form-group selectpicker-wrapper with-icon ">
+								<span><i class="fa fa-calendar"></i>
+								<input type="date" placeholder="select date" class="in" style="border:0;">
+								</span>
+						</div>     
+						</div>
+						<div class="col-md-3 overflowed">
+							<div class="form-group">
+								<button class="btna btn-theme submit-button" type="submit"> Find Event <i class="fa fa-arrow-circle-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+	    </div>
+</div>
+<div class="container-fluid ">
+<div class="container">
+	<div class="row pt-3 pl-4 pr-4">	
+		<div class="col-md-12" id="content" >
+		<h2 style="color:#b2162b;text-align:center;" class="pb-3 fsize" data-aos="zoom-in">Welcome to our <label style="color:black;">Events</label></h2>
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+Let Professionals Run Your Event!
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+Let Professionals Run Your Event!
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+Let Professionals Run Your Event!
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam 
+		</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="container-fluid pt-5 pb-4">
+<div class="container">
+		<div class="row text-center pl-4 pr-4">
+			<div class="col-md-4">
+				<div class="itema">
+					<i class="fa fa-birthday-cake" aria-hidden="true"></i>
+				</div>
+				<h4 class="pt-5">Birthdays</h4>
+				<p>Ut purus ipsum, facilisis sit amet sollicitudin eget, 
+					maximus convallis metus. Sed tristique dapibus dapibus.</p>
+			</div>
+			<div class="col-md-4 div2">
+				<div class="itema">
+						<i class="fa fa-heart-o" aria-hidden="true"></i>
+				</div>
+					<h4 class="pt-5">Wedding</h4>
+					<p>Ut purus ipsum, facilisis sit amet sollicitudin eget, 
+						maximus convallis metus. Sed tristique dapibus dapibus.</p>
+			</div>
+			<div class="col-md-4 div2">
+				<div class="itema">
+					<i class="fa fa-snowflake-o" aria-hidden="true"></i>
+				</div>
+				<h4 class="pt-5">Corporate</h4>
+				<p>Ut purus ipsum, facilisis sit amet sollicitudin eget, 
+					maximus convallis metus. Sed tristique dapibus dapibus.</p>
+			</div>
+		</div>
+</div>
+</div>
+<div class="container-fluid pt-3 pb-3">
+<div class="container">
+		<div class="row text-center ">
+			<div class="col-md-12">
+				<h5 class="pt-3 animated flash infinite delay-5s" style="color:#b2162b;">UPCOMING EVENTS</h5>
+				<h1 class="pt-3 fsize">Latest <b>Awesome Events</b></h1>
+				<div class="container">
+					<div class="row w-100 d-none d-md-block">
+						<div class="col-sm-12">
+							 <div class="owl-carousel owl-theme pt-4">
+								<div class="item1">
+									  <a href="#"><img src="img/s1.jpg" alt="img1"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s2.jpg" alt="img1"></a>
+								</div>
+								<div class="item1">
+									 <a href="#"> <img src="img/s3.jpg" alt="img1"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s4.jpg" alt="img1"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s1.jpg" alt="img1"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s2.jpg" alt="img1"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s4.jpg" alt="img1"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s3.jpg"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s1.jpg"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s2.jpg"></a>
+								</div>
+								<div class="item1">
+									  <a href="#"><img src="img/s3.jpg"></a>
+								</div>
+								<div class="item1">
+									<a href="#"><img src="img/s4.jpg"></a> 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row d-block d-md-none">
+						<div class="col-xs-12">
+							 <div class="item2">
+								<p><a href="#">Ista food event</a></p>
+								<p><a href="#">Ista food event</a></p>
+								<p><a href="#">Ista food event</a></p>
+								<p><a href="#">Ista food event</a></p>
+								<p><a href="#">Ista food event</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+</div>
+<div class="container-fluid bg-light pt-5 pb-5">
+<div class="container">
+	<div class="row pt-0 pb-4 pl-4 pr-4">		
+		<div class="col-md-12" >
+		<h2 style="color:#b2162b;text-align:center;" data-aos="zoom-in" >Our <label style="color:black;">Services</label></h2>
+		<p style="text-align:center;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+		</p>
+		</div>
+	</div>
+	<div class="row text-center pl-4 pr-4">
+		<div class="col-md-4">
+			<div class="div1"><a href="index.html"><img src="img/4a.jpg" alt="" class="img-fluid mb-2 " /></a></div>
+			<div data-aos="fade-up" data-aos-duration="1500">
+			<h4 class="pt-3">Party locations</h4>
+			<p>Ut purus ipsum, facilisis sit amet sollicitudin eget, 
+				maximus convallis metus. Sed tristique dapibus dapibus.</p>
+		</div>
+		</div>
+		<div class="col-md-4">
+			<div class="div1"><a href="index.html"><img src="img/5.jpg" alt="" class="img-fluid mb-2" /></a></div>
+			<div data-aos="fade-up" data-aos-duration="1500">
+				<h4 class="pt-3">Catering & Food</h4>
+				<p>Ut purus ipsum, facilisis sit amet sollicitudin eget, 
+					maximus convallis metus. Sed tristique dapibus dapibus.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="div1"><a href="index.html"><img src="img/6b.jpg" alt="" class="img-fluid mb-2" /></a></div>
+			<div data-aos="fade-up" data-aos-duration="1500">
+			<h4 class="pt-3">Decor & Decorations</h4>
+			<p>Ut purus ipsum, facilisis sit amet sollicitudin eget, 
+				maximus convallis metus. Sed tristique dapibus dapibus.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="container-fluid pt-5">
+<div class="container">
+	<div class="row pt-0 pb-4 pl-4 pr-4">		
+		<div class="col-md-12" >
+		<h2 style="color:#b2162b;text-align:center;" data-aos="zoom-in" >Useful <label style="color:black;">Links</label></h2>
+		<p style="text-align:center;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+		</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="container-fluid  bg-brown d-none d-md-block">
+	<div class="container">
+		<div class="row text-center padd othpadd bg-brown e1">
+			<div class="col-md-6 ">
+				<div class="div1"><a class="test-popup-link" href="img/corporate-event.jpg"><img src="img/cevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+			</div>
+			<div class="col-md-6" style="text-align:justify;">
+					<h4 class="pt-3 pl-4" data-aos="zoom-in-left">Corporate Events</h4>
+					<ul class=" pt-4">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum Ut purus ipsum Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+					</ul>
+			</div>
+		</div>
+		
+		<div class="row text-center padd othpadd1 bg-brown e1">
+			<div class="col-md-6" style="text-align:justify;">
+					<h4 class="pt-3 pl-4" data-aos="zoom-in-right">Food Festivals</h4>
+					<ul class=" pt-4 ">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum Ut purus ipsum Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp; Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum Ut purus ipsum Ut purus ipsum</a></li>
+					</ul>
+			</div>
+			<div class="col-md-6">
+				<div class="div1"><a href="index.html" class="test-popup-link"><img src="img/fevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+			</div>
+		</div>
+		<div class="row text-center padd othpadd2 bg-brown e1">
+			<div class="col-md-6 ">
+				<div class="div1"><a href="index.html" class="test-popup-link"><img src="img/bevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+				
+			</div>
+			<div class="col-md-6" style="text-align:justify;">
+					<h4 class="pt-3" data-aos="zoom-in-left">Birthday Special</h4>
+					<ul class=" pt-4 pl-4">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum Ut purus ipsum</a></li>
+					</ul>
+			</div>
+		</div>
+		<div class="row text-center padd othpadd bg-brown e1">
+			<div class="col-md-6" style="text-align:justify;">
+					<h4 class="pt-3" data-aos="zoom-in-right">Wedding Parties</h4>
+					<ul class=" pt-4 pl-4">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum Ut purus ipsum Ut purus</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum Ut purus ipsum Ut purus</a></li>
+					</ul>
+			</div>
+			<div class="col-md-6">
+				<div class="div1"><a href="index.html" class="test-popup-link"><img src="img/wevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+			</div>
+		</div>
+		</div>
+</div>
+<!--for small screen-->
+<div class="container-fluid  bg-brown d-block d-md-none">
+	<div class="container">
+		<div class="row padd othpadd bg-brown e1">
+			<div class="col-md-12 ">
+				<div class="div1"><a class="test-popup-link" href="img/corporate-event.jpg"><img src="img/cevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+					<h4 class="pt-3 ">Corporate Events</h4>
+					<ul class=" pt-4">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+					</ul>
+			</div>
+		</div>
+		<div class="row padd othpadd bg-brown e1">
+			<div class="col-md-12 ">
+				<div class="div1"><a href="index.html" class="test-popup-link"><img src="img/fevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+					<h4 class="pt-3 pl-2">Food Festivals</h4>
+					<ul class=" pt-4">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+					</ul>
+			</div>
+		</div>
+		<div class="row padd othpadd bg-brown e1">
+			<div class="col-md-12 ">
+				<div class="div1"><a href="index.html" class="test-popup-link"><img src="img/bevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+					<h4 class="pt-3 pl-2">Birthday Special</h4>
+					<ul class=" pt-4">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+					</ul>
+			</div>
+		</div>
+		<div class="row padd othpadd bg-brown e1">
+			<div class="col-md-12 ">
+				<div class="div1"><a href="index.html" class="test-popup-link"><img src="img/wevent.jpg" alt="" class="img-fluid img-thumbnail" /></a></div>
+					<h4 class="pt-3 pl-2">Wedding parties</h4>
+					<ul class="pt-4">
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Locations and Venues</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Catering & Food</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Decorations & Centerpieces</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;Ut purus ipsum</a></li>
+					</ul>
+			</div>
+		</div>
+	</div>
+</div>	
+<!--end-->
+<div class="container-fluid pt-4 pb-4 pl-4 pr-4" id="block-menu2">
+	<div class="row text-light text-center">
+		<div class="col-md-3">
+		<p><i class="fa fa-phone"></i> 1008-47893366</p>
+		</div>
+		<div class="col-md-3 A"><p><i class="fa fa-envelope"></i><a href="#"> contact@me.com</a></p></div>
+		<div class="col-md-3"><p><i class="fa fa-map-marker"></i> 108,GSA GREENWOOD APARTMENT</p></div>
+		<div class="col-md-3">
+			<span>
+				<a href="#" target="_blank" title="facebook"><i class="fa fa-facebook-square"></i></a>
+				<a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" target="_blank" title="linkedin"><i class="fa fa-linkedin"></i></a>			
+			</span>
+		</div>
+	</div>
+	<div class="row text-light text-center">
+		<div class="col-md-12 pt-3">
+		<p class="fborder">
+		© 2017 Events Management All rights reserved | Design by <a href="#" title="Ethical Web Solutions Pvt. Ltd.">EWS</a></p>
+		</div>
+	</div>
+</div>
+<a href="#myPage" id="toTop" title="to top" style="display:inline;"></a>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script>
+	$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+$(document).scroll(function() {
+    var y = $(document).scrollTop(), 
+        header = $("#block-menu");
+    if(y >= 510)  {
+        header.css({position: "fixed", "top" :"35px", "left" : "0"});
+    } else {
+        header.css({position: "relative","top" :"0" , "left" : "0"});
+    }
+	});
+	var owl = $('.owl-carousel');
+			owl.owlCarousel({
+			items:4,
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout:2000,
+			autoplayHoverPause:true
+			});
+			
+			
+	$(document).ready(function() {
+  $('.test-popup-link').magnificPopup({type:'image'});
+});
+
+AOS.init({
+		  duration:1200,
+		})
+</script>
+</html>
