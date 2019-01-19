@@ -375,7 +375,7 @@ ul.breadcrumb li a {
     padding: 6px 40px;}
 .readmore a{text-decoration:none;color:black;}
 .readmore a:visited{text-decoration:none;color:black;}
-.readmore:hover {background-color:#b2162b;}
+.readmore:hover {background-color:#b2162b;border:0;}
 .readmore:hover a{color:#fff;}
 .getstart
 {
